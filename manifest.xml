@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="fieraoggiono" installOnlyAtStartup="false" version="1.0.0">
+ <names>
+  <name lang="en_US">Fiera Oggiono</name>
+  <name lang="it_IT">Fiera Oggiono</name>
+ </names>
+ <supportedLanguages>
+  <language>it_IT</language>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>it_IT</language>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="it_IT">Fiera Oggiono</name>
+   </names>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent topicName="pentole" typeVersion="1.0">
+   <topic path="pentole/pentole_enu.top" language="en_US"/>
+   <topic path="pentole/pentole_iti.top" language="it_IT"/>
+  </dialogContent>
+  <dialogContent topicName="main" typeVersion="1.0">
+   <topic path="main/main_enu.top" language="en_US"/>
+   <topic path="main/main_iti.top" language="it_IT"/>
+  </dialogContent>
+ </contents>
+</package>

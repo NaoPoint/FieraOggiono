@@ -1,0 +1,8 @@
+topic: ~pentole()
+language: iti
+
+concept:(ok) [si ok "sono pronto"]
+
+u:(~ok) Qual è la mossa giusta per risparmiare energia e calore? Provaci, io ti sto aspettando $requestMark=true
+u:(e:noMark) Cosa stai aspettando? $requestMark=true
+u:(e:siMark) Bravo! In questo modo il cibo si cuoce più velocemente, senza sprechi di gas!

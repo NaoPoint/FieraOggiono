@@ -1,0 +1,21 @@
+topic: ~main()
+language: iti
+
+concept:(saluti) ^rand[hello bongiur yo hey hai "hai la carbonella" salute saluti "buona giornata" ueilà ueila "come va?" ehi ciao "buongiorno" "buona mattinata" "buon pomeriggio" buonasera buondì salve riverenze bella bellabro ue oi ei]
+
+concept:(si) [si ok "va bene" "si bro" certamente certo]
+concept:(corretto)["perché è una indicazione di legge"]
+concept:(sbagliato)["perché poi ti viene il raffreddore" "perché fa troppo caldo"]
+
+u:("ue uaglio") Guarda chi è arrivato, lo scugnizzo
+u:(~saluti) Ciao io sono NAO e ti aiuterò a risparmiare gas ed essere più ecologico. Dimmi un numero da 1 a 7 per avere un consiglio.
+    u1:(1) Vuoi fare un quiz?
+        u2:(~si) Allora iniziamo subito. Perché dobbiamo tenere la temperatura a 19 gradi? 1. Perché è una indicazione di legge. 2. Perché poi ti viene il raffreddore. 3. Perché fa troppo caldo.
+            u3:(~corretto) Giusto, bravo! $var1=1
+            u3:(~sbagliato) No, errato! ^stayInScope $var1=2
+    u1:(2) Ricordati di spegnere le luci e gli elettrodomestici non necessari durante la notte, così risparmierai energia e avrai un sonno più sereno. ^stayInScope
+    u1:(3) Per assicurarti che la tua caldaia funzioni sempre al meglio chiama periodicamente un ditta di manutenzione specializzata per: il controllo fumi, pulizia dei condotti e riparazione di eventuali guesti. ^stayInScope
+    u1:(4) Chiudi sempre porte e finestre, altrimenti l'aria calda uscirà come i soldi dal tuo conto in banca! $var4=true
+    u1:(5) Evita di coprire i termosifoni in modo da non sprecare calore. $var5=true
+    u1:(6) Ciao! Iniziamo? $var6=true
+    u1:(7) Opta per un riscaldamento tramite camino o stufa per consumare meno gas. $var7=true
