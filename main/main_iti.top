@@ -14,8 +14,8 @@ u:(~saluti) Ciao io sono NAO e ti aiuterò a risparmiare gas ed essere più ecol
             u3:(~corretto) Giusto, bravo! $var1=1
             u3:(~sbagliato) No, errato! ^stayInScope $var1=2
     u1:(2) Ricordati di spegnere le luci e gli elettrodomestici non necessari durante la notte, così risparmierai energia e avrai un sonno più sereno. ^stayInScope
-    u1:(3) Per assicurarti che la tua caldaia funzioni sempre al meglio chiama periodicamente un ditta di manutenzione specializzata per: il controllo fumi, pulizia dei condotti e riparazione di eventuali guesti. ^stayInScope
-    u1:(4) Chiudi sempre porte e finestre, altrimenti l'aria calda uscirà come i soldi dal tuo conto in banca! $var4=true
-    u1:(5) Evita di coprire i termosifoni in modo da non sprecare calore. $var5=true
-    u1:(6) Ciao! Iniziamo? $var6=true
-    u1:(7) Opta per un riscaldamento tramite camino o stufa per consumare meno gas. $var7=true
+    u1:(3) Per assicurarti che la tua caldaia funzioni sempre al meglio chiama periodicamente una ditta di manutenzione specializzata per: il controllo fumi, la pulizia dei condotti e la riparazione di eventuali guasti. ^stayInScope
+    u1:(4) Chiudi sempre porte e finestre, altrimenti l'aria calda uscirà come i soldi dal tuo conto in banca! ^stayInScope $var4=true
+    u1:(5) Evita di coprire i termosifoni in modo da non sprecare calore. ^stayInScope $var5=true
+    u1:(6) Ciao! Iniziamo? ^stayInScope $var6=true
+    u1:(7) Opta per un riscaldamento tramite camino o stufa per consumare meno gas. ^stayInScope $var7=true

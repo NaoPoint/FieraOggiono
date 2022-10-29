@@ -10,7 +10,7 @@
     </Dialogs>
     <Resources />
     <Topics>
-        <Topic name="pentole_enu" src="pentole/pentole_enu.top" topicName="pentole" language="en_US" nuance="enu" />
+        <Topic name="pentole_enu" src="pentole/pentole_enu.top" topicName="pentole" language="it_IT" nuance="iti" />
         <Topic name="pentole_iti" src="pentole/pentole_iti.top" topicName="pentole" language="it_IT" nuance="iti" />
         <Topic name="main_enu" src="main/main_enu.top" topicName="main" language="en_US" nuance="enu" />
         <Topic name="main_iti" src="main/main_iti.top" topicName="main" language="it_IT" nuance="iti" />
